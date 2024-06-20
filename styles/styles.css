@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100dvh;
+
+  --color-bg-layout: #f5f5f5;
+  background-color: var(--color-bg-layout);
+}
+
+.agify {
+  .agify-spinner-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+  }
+}
+
+.layout {
+  .layout-header {
+    flex: 0 1 96px;
+  }
+
+  .layout-content {
+    flex: 1;
+  }
+  .layout-footer {
+    flex: 0 1 96px;
+  }
+}
+
+.header {
+  .header-container {
+    .header-logo {
+      width: 64px;
+    }
+  }
+}

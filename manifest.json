@@ -1,0 +1,10 @@
+{
+  "name": "Agify",
+  "short_name": "Agify",
+  "start_url": "/",
+  "background_color": "#f5f5f5",
+  "theme_color": "#fff",
+  "icons": [],
+  "display": "standalone",
+  "orientation": "portrait"
+}
